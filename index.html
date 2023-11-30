@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webpage using tailwind</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/ff56cc0d89.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-sans">
+    <div class="container-fluid min-h-screen bg-[url('images/image.png')] px-28 py-5">
+        <nav class="flex items-center">
+            <img src="images/logo.png" alt="logo" class="w-40 cursor-pointer">  
+            <ul class="flex-1 text-center">
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Home</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">About</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Features</a></li>
+                <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2">Contact</a></li>
+            </ul>
+            <img src="images/cart.png" alt="cart" class="w-8 cursor-pointer">
+        </nav>
+        <div class="text-white mt-32 max-w-xl">
+            <h1 class="text-6xl font-semibold leading-normal pb-6 sm:text-xs md:text-base lg:text-xl xl:text-6xl">Groceries <br> delivery in <span class="font-light">15 mins</span></h1>
+            <p>Grocify offers a wide range of products, including fresh products, meats, dairy, baked goods, non-perishable items.</p>
+            <div class="mt-10">
+                <button class="px-8 py-3 rounded-3xl bg-yellow-300 font-medium inline-block mr-3 hover:bg-transparent hover:border-yellow-300 hover:text-white hover:border duration-200 border border-transparent">
+                    <a href="#">Order Now</a></button>
+                <button class="px-8 py-3 rounded-3xl bg-yelllow-300 font-medium inline-block mr-3 hover:bg-transparent hover:border-yellow-300 hover:text-white hover:border duration-200 border border-transparent">
+                    <a href="#">Download App <span class="text-lg inlie-block rotate-90">&#10148</span></a></button>
+            </div>
+        </div>
+        <img src="images/grocery-image.png" alt="grocery-image" class="w-full xl:w-1/2 xl:absolute bottom-0 right-20">
+    </div>
+</body>
+</html>
